@@ -14,7 +14,8 @@ start(_Type, _Args) ->
             {'_', [
                 {"/", default_page_h, []},
                 {"/button", button_h, []},
-                {"/geek", show_geeks_h, []}
+                {"/geek", show_geeks_h, []},
+                {"/form", form_h, []}
             ]}
         ]),
         cowboy:start_clear(
